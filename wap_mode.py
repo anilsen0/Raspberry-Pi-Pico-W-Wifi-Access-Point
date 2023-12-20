@@ -120,5 +120,6 @@ def ap_mode(ssid, password):
 
         conn.close()
 
-ap_mode('ElattePi WAP 192.168.4.1','PASSWORD')        
+#Burada belirlemek istediğimiz ağ adımızı ve şifremizi ap_mode fonksiyonumuza parametre olarak vererek, fonksiyonu çağırıyoruz. 
+ap_mode('Raspberry Pi Pico W WAP','PASSWORD')        
 
